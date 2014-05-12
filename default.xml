@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="1" />
 
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
